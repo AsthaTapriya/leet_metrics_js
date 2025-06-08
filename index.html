@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leet Metrix</title>
+    <link rel="stylesheet" href="metric.css">
+</head>
+<body>
+            <div class="container"> 
+                    <!--heading-->
+                    <h1>Leet Metrix</h1>
+
+                    <div class="user-container"> <!--all users information-->
+                            <p>Enter your usename below :</p>
+                            <!--input field container-->
+                            <div class="input-container">
+                                    <input type="text" placeholder="Enter your usename here" id="user-input">
+                                    <button id="search-btn"> Search</button>
+                            </div>
+
+                    </div>
+
+                    <div class="stats-container"> <!--all stats information-->
+                            <!--progress section-->
+                            <div class="progress">
+                                <!--3 progress items-->
+                                        <div class="progress-itms">
+                                                    <!--easy level label-->
+                                                    <div class="easy-level circle ">
+                                                        <span id="easy"></span><p>Easy</p>
+                                                    </div>
+                                        </div>
+                                        <div class="progress-itms ">
+                                                     <!--medium level label-->
+                                                    <div class="medium-level circle" >
+                                                        <span id="medium"></span><p>Medium</p>
+                                                    </div>
+                                        </div>
+                                        <div class="progress-itms">
+                                                     <!--Hard level label-->
+                                                    <div class="hard-level circle">
+                                                        <span id="hard"></span><p>Hard</p>
+                                                    </div>
+                                        </div>
+                            </div>
+                                    <div class="stats-card">
+                                                <!--see later using Javascript-->
+                                    </div>
+
+                    </div>
+
+            </div>
+
+            <script src="metric.js"></script>
+</body>
+</html>
