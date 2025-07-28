@@ -9,6 +9,8 @@ document.addEventListener("DOMContentLoaded" , function(){
     const mediumLabel = document.getElementById('medium');
     const hardLabel = document.getElementById('hard');
     const statsCard = document.querySelector('.stats-card');
+    const info = document.querySelector('.information');
+    const signChange=document.getElementById('sign');
 
  //check for valid usename returns t or f
         function validUserName(username){
